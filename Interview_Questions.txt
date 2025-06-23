@@ -1,0 +1,29 @@
+1. What is normalization?
+Normalization is the process of organizing data to reduce redundancy and improve data integrity.
+
+2. Explain primary vs foreign key.
+A primary key uniquely identifies each record in a table. A foreign key refers to a primary key in another table to create a relationship.
+
+3. What are constraints?
+Constraints are rules applied to table columns to enforce data integrity (e.g., NOT NULL, UNIQUE, PRIMARY KEY).
+
+4. What is a surrogate key?
+A surrogate key is a system-generated unique identifier (e.g., auto-incremented ID) used as a primary key.
+
+5. How do you avoid data redundancy?
+Using normalization and relationships (foreign keys) to structure data efficiently.
+
+6. What is ER diagram?
+An Entity-Relationship Diagram visually represents entities, attributes, and relationships in a database.
+
+7. What are the types of relationships in DBMS?
+One-to-One, One-to-Many, and Many-to-Many.
+
+8. Explain the purpose of AUTO_INCREMENT.
+It automatically generates a unique number when a new record is inserted, usually used for primary keys.
+
+9. What is the default storage engine in MySQL?
+InnoDB is the default storage engine in modern MySQL versions.
+
+10. What is a composite key?
+A composite key is made up of two or more columns that together uniquely identify a record.
