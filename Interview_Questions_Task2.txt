@@ -1,0 +1,29 @@
+1. Difference between NULL and 0?
+NULL means 'no value', while 0 is a defined numeric value.
+
+2. What is a default constraint?
+It provides a default value if no value is supplied during insert.
+
+3. How does IS NULL work?
+It checks if a column contains a NULL value: `WHERE column IS NULL`.
+
+4. How do you update multiple rows?
+By using `UPDATE` with a `WHERE` condition matching multiple rows.
+
+5. Can we insert partial values?
+Yes, if other columns allow NULL or have default values.
+
+6. What happens if a NOT NULL field is left empty?
+The query fails with an error due to constraint violation.
+
+7. How do you rollback a deletion?
+By using `ROLLBACK` if inside a transaction and not yet committed.
+
+8. Can we insert values into specific columns only?
+Yes, by specifying the column list in the `INSERT` statement.
+
+9. How to insert values using SELECT?
+Use `INSERT INTO table_name (col1, col2) SELECT colA, colB FROM other_table;`
+
+10. What is ON DELETE CASCADE?
+It automatically deletes child rows when the referenced parent row is deleted.
