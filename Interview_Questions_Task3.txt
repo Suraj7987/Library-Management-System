@@ -1,0 +1,29 @@
+1. What is the use of SELECT in SQL?
+SELECT is used to retrieve data from one or more tables.
+
+2. Difference between WHERE and HAVING?
+WHERE filters rows before grouping; HAVING filters after grouping.
+
+3. What is the use of LIKE?
+LIKE is used for pattern matching (e.g. 'A%' for names starting with A).
+
+4. What is the LIMIT clause?
+It restricts the number of records returned by a query.
+
+5. How does ORDER BY work?
+It sorts result rows in ascending or descending order based on a column.
+
+6. What is DISTINCT?
+DISTINCT removes duplicate values from the result set.
+
+7. What is a JOIN in SQL?
+JOIN combines rows from two or more tables based on a related column.
+
+8. When to use IS NULL?
+To filter rows where a column contains NULL (no value).
+
+9. How to search partial strings?
+Using LIKE with %, e.g. title LIKE '%Fire%'
+
+10. Can SELECT return multiple columns?
+Yes, SELECT can return one, multiple, or all columns using * or column names.
