@@ -1,0 +1,29 @@
+1. What does COUNT(*) do?
+It counts the total number of rows in a result set.
+
+2. Difference between COUNT(*) and COUNT(column)?
+COUNT(*) counts all rows; COUNT(column) skips NULL values.
+
+3. When do we use GROUP BY?
+To group rows that have the same values into summary rows.
+
+4. What is the use of HAVING?
+It filters grouped data (like WHERE filters individual rows).
+
+5. Can we use WHERE with GROUP BY?
+Yes, WHERE filters rows before grouping.
+
+6. How does AVG() work?
+It calculates the average of numeric values.
+
+7. What does SUM() return?
+SUM() returns the total of all values in a numeric column.
+
+8. Can we use ORDER BY with GROUP BY?
+Yes, ORDER BY can sort the grouped results.
+
+9. What is a subquery?
+A query nested inside another query, often used for aggregation.
+
+10. When do we use LIMIT?
+To restrict the number of rows returned by the query.

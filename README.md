@@ -1,12 +1,13 @@
-# Task 3 - SQL Developer Internship
-## Topic: SELECT Queries (Filter, Sort, Project)
+# Task 4 - SQL Developer Internship
+## Topic: Aggregate Functions and Grouping
 
-This task demonstrates use of various SELECT queries using:
-- WHERE, AND, OR, LIKE
-- IN, BETWEEN, LIMIT, ORDER BY
-- JOINs and NULL handling
+This task demonstrates use of:
+- COUNT(), SUM(), AVG()
+- GROUP BY and HAVING clauses
+- Filtering grouped results using HAVING
+- Real-world queries on Library Management System
 
-### Schema Used:
+### Tables Used:
 - Student
 - Book
 - Issue_Record
